@@ -53,6 +53,17 @@ header .collapse a.active::before {
     border-radius: 50%;
 }
 
+.cyber_carousel .carousel-indicators button {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: none;
+}
+
+.cyber_carousel .carousel-indicators button.active {
+    background-color: #35a22c;
+}
+
 /* .cyber_carousel .carousel-item::before {
     position: absolute;
     content: "";
@@ -207,11 +218,109 @@ header .collapse a.active::before {
     }
 }
 
+/* award */
+
+.cyber_award {
+    position: relative;
+    padding: 70px 0;
+}
+
+
+.cyber_award .bg {
+    background-image: url(./img/memphis_3.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.cyber_award .cyber_award__left {
+    background: rgba(255, 255, 255, .25);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, .18);
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, .3);
+    padding: 45px;
+}
+
+
+.cyber_award .cyber_award__left h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.cyber_award .cyber_award__right {
+    padding: 50px 0 ;
+}
+
+.cyber_award .cyber_award__right p {
+    margin-bottom: 16px;
+}
+
+/* footer */
+
+footer {
+    background-color: #222222;
+}
+
+.footer_content a {
+    margin-right: 10px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.footer_content i {
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 50%;
+    border: 1px solid #454545;
+    transition: all .5s;
+    color: wheat
+}
+
+.footer_content i:hover {
+    color: #35a22c;
+    border: 1px solid #35a22c;
+}
+
+.footer_copyright {
+    border-top: 1px solid #454545;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.footer_copyright p {
+    color: wheat;
+    margin: auto;
+}
+
+.footer_copyright p a {
+    text-decoration: none;
+    color: wheat;
+    transition: all 0.5s;
+}
+
+.footer_copyright p a:hover {
+    color: #35a22c;
+}
+
+
+
 @media  screen and (max-width:576px) {
     header .navbar-brand span {
         color: orange !important;;
     }
-} */
+} 
+
+
+
 
 @media  screen and  (min-width: 820px){
     header .navbar-brand span {
