@@ -82,6 +82,19 @@ header .navbar-toggler {
     background-color: rgba(39, 43, 54, .5);
 } */
 
+.cyber_project .cyber_project_title h2{
+    font-size: 36px;
+    line-height: 42px;
+    color: #1a1d2d;
+    font-weight: 600;
+}
+
+.cyber_project .cyber_project_title p {
+    color: #585858;
+    line-height: 24px;
+}
+
+
 .cyber_project .nav button.active {
     background-color: green;
     color: white !important;
