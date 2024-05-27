@@ -29,6 +29,14 @@ header .collapse a.active::before {
     width: 100%;
 }
 
+header .navbar .navbar_icon{
+    color: white;
+}
+
+header .navbar-toggler {
+    color: white;
+}
+
 .cyber_carousel .carousel-item .carousel_content {
     position: absolute;
     /* left: 50%;
@@ -314,16 +322,16 @@ footer {
 
 
 @media  screen and (max-width:576px) {
-    header .navbar-brand span {
+    /* header .navbar-brand span {
         color: orange !important;;
-    }
+    } */
 } 
 
 
 
 
 @media  screen and  (min-width: 820px){
-    header .navbar-brand span {
+    /* header .navbar-brand span {
         color: orange !important;;
-    }
+    } */
 }
