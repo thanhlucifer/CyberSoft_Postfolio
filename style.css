@@ -282,7 +282,7 @@ footer {
     border-radius: 50%;
     border: 1px solid #454545;
     transition: all .5s;
-    color: wheat
+    color: rgb(255, 255, 255);
 }
 
 .footer_content i:hover {
@@ -297,13 +297,13 @@ footer {
 }
 
 .footer_copyright p {
-    color: wheat;
+    color: rgb(255, 255, 255);
     margin: auto;
 }
 
 .footer_copyright p a {
     text-decoration: none;
-    color: wheat;
+    color: rgb(255, 255, 255);
     transition: all 0.5s;
 }
 
